@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColor (OWS)
-
++ (UIColor*) ows_materialRedColor;
 + (UIColor*) ows_materialBlueColor;
 
 + (UIColor *) ows_fadedBlueColor;

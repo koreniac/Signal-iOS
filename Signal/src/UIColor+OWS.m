@@ -8,13 +8,18 @@
 
 #import "UIColor+OWS.h"
 #import "Cryptography.h"
-
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 @implementation UIColor (OWS)
 
++ (UIColor*) ows_materialRedColor {
+    // blue: #e21212
+    return UIColorFromRGB(0Xe21212);
+}
 
 + (UIColor*) ows_materialBlueColor {
     // blue: #2090EA
-    return [UIColor colorWithRed:32.f/255.f green:144.f/255.f blue:234.f/255.f  alpha:1.f];
+//    return [UIColor colorWithRed:32.f/255.f green:144.f/255.f blue:234.f/255.f  alpha:1.f];
+    return [UIColor ows_materialRedColor];
 }
 
 + (UIColor*) ows_blackColor {

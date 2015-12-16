@@ -3481,7 +3481,7 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: True Digital Content and Media Company Limited (CHS9UCHMZA)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: snarl man (UBCCCEQ44D)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
@@ -3551,7 +3551,7 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: True Digital Content and Media Company Limited (CHS9UCHMZA)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: snarl man (UBCCCEQ44D)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -3603,8 +3603,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: True Digital Content and Media Company Limited (CHS9UCHMZA)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: True Digital Content and Media Company Limited (CHS9UCHMZA)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: snarl man (UBCCCEQ44D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: snarl man (UBCCCEQ44D)";
 				CURRENT_PROJECT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3643,7 +3643,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tdcm.signal;
 				PRODUCT_NAME = Signal;
-				PROVISIONING_PROFILE = "7b159033-8a3d-4122-82fb-cd3da30867e0";
+				PROVISIONING_PROFILE = "7417f697-003b-4174-9b9e-9a93ecda0a8e";
 				SDKROOT = iphoneos;
 				TEST_AFTER_BUILD = YES;
 				VALID_ARCHS = "arm64 armv7 armv7s i386";
@@ -3658,8 +3658,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: True Digital Content and Media Company Limited (CHS9UCHMZA)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: True Digital Content and Media Company Limited (CHS9UCHMZA)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: snarl man (UBCCCEQ44D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: snarl man (UBCCCEQ44D)";
 				CURRENT_PROJECT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3698,7 +3698,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tdcm.signal;
 				PRODUCT_NAME = Signal;
-				PROVISIONING_PROFILE = "7b159033-8a3d-4122-82fb-cd3da30867e0";
+				PROVISIONING_PROFILE = "7417f697-003b-4174-9b9e-9a93ecda0a8e";
 				SDKROOT = iphoneos;
 				TEST_AFTER_BUILD = YES;
 				VALID_ARCHS = "arm64 armv7 armv7s i386";
@@ -3712,7 +3712,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Signal.app/Signal";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: True Digital Content and Media Company Limited (CHS9UCHMZA)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: snarl man (UBCCCEQ44D)";
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -3752,7 +3752,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.whispersystems.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = SignalTests;
-				PROVISIONING_PROFILE = "74e0e810-838f-4e7a-86a0-b50f5938b34c";
+				PROVISIONING_PROFILE = "7417f697-003b-4174-9b9e-9a93ecda0a8e";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALID_ARCHS = "arm64 armv7s armv7 i386 x86_64";
 			};
@@ -3764,7 +3764,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Signal.app/Signal";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: True Digital Content and Media Company Limited (CHS9UCHMZA)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: snarl man (UBCCCEQ44D)";
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -3804,7 +3804,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.whispersystems.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = SignalTests;
-				PROVISIONING_PROFILE = "74e0e810-838f-4e7a-86a0-b50f5938b34c";
+				PROVISIONING_PROFILE = "7417f697-003b-4174-9b9e-9a93ecda0a8e";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALID_ARCHS = "arm64 armv7s armv7 i386 x86_64";
 			};
