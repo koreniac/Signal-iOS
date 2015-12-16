@@ -1104,7 +1104,7 @@
 		BFB074C619A5611000F2947C /* ObservableValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObservableValue.m; sourceTree = "<group>"; };
 		D2179CFB16BB0B3A0006F3AB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		D2179CFD16BB0B480006F3AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D221A089169C9E5E00537ABF /* Signal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D221A089169C9E5E00537ABF /* SignalCrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignalCrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D221A08D169C9E5E00537ABF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D221A08F169C9E5E00537ABF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D221A091169C9E5E00537ABF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -2448,7 +2448,7 @@
 		D221A08A169C9E5E00537ABF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D221A089169C9E5E00537ABF /* Signal.app */,
+				D221A089169C9E5E00537ABF /* SignalCrypt.app */,
 				D221A0AA169C9E5F00537ABF /* SignalTests.xctest */,
 			);
 			name = Products;
@@ -2675,9 +2675,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D221A088169C9E5E00537ABF /* Signal */ = {
+		D221A088169C9E5E00537ABF /* SignalCrypt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D221A0BC169C9E5F00537ABF /* Build configuration list for PBXNativeTarget "Signal" */;
+			buildConfigurationList = D221A0BC169C9E5F00537ABF /* Build configuration list for PBXNativeTarget "SignalCrypt" */;
 			buildPhases = (
 				493CFB695DB448D8A3C1AE06 /* Check Pods Manifest.lock */,
 				D221A085169C9E5E00537ABF /* Sources */,
@@ -2692,9 +2692,9 @@
 				70B800AE190C54870042E3F0 /* PBXTargetDependency */,
 				70B800A5190C52F80042E3F0 /* PBXTargetDependency */,
 			);
-			name = Signal;
+			name = SignalCrypt;
 			productName = RedPhone;
-			productReference = D221A089169C9E5E00537ABF /* Signal.app */;
+			productReference = D221A089169C9E5E00537ABF /* SignalCrypt.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D221A0A9169C9E5F00537ABF /* SignalTests */ = {
@@ -2806,7 +2806,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				D221A088169C9E5E00537ABF /* Signal */,
+				D221A088169C9E5E00537ABF /* SignalCrypt */,
 				D221A0A9169C9E5F00537ABF /* SignalTests */,
 			);
 		};
@@ -3413,7 +3413,7 @@
 		};
 		B6AFCEBB19A93DA60098CFCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D221A088169C9E5E00537ABF /* Signal */;
+			target = D221A088169C9E5E00537ABF /* SignalCrypt */;
 			targetProxy = B6AFCEBA19A93DA60098CFCB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -3642,7 +3642,7 @@
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tdcm.signal;
-				PRODUCT_NAME = Signal;
+				PRODUCT_NAME = SignalCrypt;
 				PROVISIONING_PROFILE = "7417f697-003b-4174-9b9e-9a93ecda0a8e";
 				SDKROOT = iphoneos;
 				TEST_AFTER_BUILD = YES;
@@ -3697,7 +3697,7 @@
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tdcm.signal;
-				PRODUCT_NAME = Signal;
+				PRODUCT_NAME = SignalCrypt;
 				PROVISIONING_PROFILE = "7417f697-003b-4174-9b9e-9a93ecda0a8e";
 				SDKROOT = iphoneos;
 				TEST_AFTER_BUILD = YES;
@@ -3822,7 +3822,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "App Store Release";
 		};
-		D221A0BC169C9E5F00537ABF /* Build configuration list for PBXNativeTarget "Signal" */ = {
+		D221A0BC169C9E5F00537ABF /* Build configuration list for PBXNativeTarget "SignalCrypt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D221A0BD169C9E5F00537ABF /* Debug */,
