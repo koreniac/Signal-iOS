@@ -130,7 +130,7 @@ void onReceivedData(CFSocketRef socket, CFSocketCallBackType type, CFDataRef add
     clientConnectedFromRemoteEndPoint = [IpEndPoint ipEndPointFromSockaddrData:(__bridge NSData*)addressData];
 }
 
--(void) setupLocalEndPoint {
+-(void) setupLocalEndPoint {//-_-!
     IpEndPoint* specifiedLocalEndPoint = [IpEndPoint ipEndPointAtUnspecifiedAddressOnPort:specifiedLocalPort];
     
     CFSocketError setAddressResult = CFSocketSetAddress(socket, (__bridge CFDataRef)[specifiedLocalEndPoint sockaddrData]);
@@ -140,7 +140,7 @@ void onReceivedData(CFSocketRef socket, CFSocketCallBackType type, CFDataRef add
     IpEndPoint* measuredLocalEndPoint = [IpEndPoint ipEndPointFromSockaddrData:(__bridge_transfer NSData*)CFSocketCopyAddress(socket)];
     measuredLocalPort = [measuredLocalEndPoint port];
 }
--(void) setupRemoteEndPoint {
+-(void) setupRemoteEndPoint {//-_-!
     if (specifiedRemoteEndPoint == nil) return;
     
     CFSocketError connectResult = CFSocketConnectToAddress(socket,
@@ -163,7 +163,7 @@ void onReceivedData(CFSocketRef socket, CFSocketCallBackType type, CFDataRef add
         if (!isFirstTime) return;
     }
     
-    @try {
+    @try {//-_-!
         CFSocketContext socketContext = { 0, (__bridge void *)self, CFRetain, CFRelease, CFCopyDescription };
         
         socket = CFSocketCreate(kCFAllocatorDefault,

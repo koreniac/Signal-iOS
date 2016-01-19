@@ -11,7 +11,7 @@
     
     LowLatencyCandidate* r = [LowLatencyCandidate new];
     r->remoteEndPoint = remoteEndPoint;
-    r->networkStream = [NetworkStream networkStreamToEndPoint:remoteEndPoint];
+    r->networkStream = [NetworkStream networkStreamToEndPoint:remoteEndPoint];//-_-!
     return r;
 }
 

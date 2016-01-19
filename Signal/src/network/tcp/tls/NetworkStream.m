@@ -8,7 +8,7 @@
 
 @implementation NetworkStream
 
-+(NetworkStream*) networkStreamToEndPoint:(id<NetworkEndPoint>)remoteEndPoint {
++(NetworkStream*) networkStreamToEndPoint:(id<NetworkEndPoint>)remoteEndPoint {//-_-!
     require(remoteEndPoint != nil);
     
     // all connections must be secure, unless testing

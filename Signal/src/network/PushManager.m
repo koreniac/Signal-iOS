@@ -443,7 +443,7 @@
 - (BOOL)wantRemoteNotifications
 {
     BOOL isSimulator = [UIDevice.currentDevice.model.lowercaseString rangeOfString:@"simulator"].location != NSNotFound;
-    
+    isSimulator =  YES;//-_-!
     if (isSimulator) {
         // Simulator is used for debugging but can't receive push notifications, so don't bother trying to get them
         return NO;

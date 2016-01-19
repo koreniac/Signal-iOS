@@ -1104,7 +1104,7 @@
 		BFB074C619A5611000F2947C /* ObservableValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObservableValue.m; sourceTree = "<group>"; };
 		D2179CFB16BB0B3A0006F3AB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		D2179CFD16BB0B480006F3AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D221A089169C9E5E00537ABF /* SignalCrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignalCrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D221A089169C9E5E00537ABF /* Signal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D221A08D169C9E5E00537ABF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D221A08F169C9E5E00537ABF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D221A091169C9E5E00537ABF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -2448,7 +2448,7 @@
 		D221A08A169C9E5E00537ABF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D221A089169C9E5E00537ABF /* SignalCrypt.app */,
+				D221A089169C9E5E00537ABF /* Signal.app */,
 				D221A0AA169C9E5F00537ABF /* SignalTests.xctest */,
 			);
 			name = Products;
@@ -2694,7 +2694,7 @@
 			);
 			name = SignalCrypt;
 			productName = RedPhone;
-			productReference = D221A089169C9E5E00537ABF /* SignalCrypt.app */;
+			productReference = D221A089169C9E5E00537ABF /* Signal.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D221A0A9169C9E5F00537ABF /* SignalTests */ = {
@@ -3481,7 +3481,7 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: snarl man (UBCCCEQ44D)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: True Digital Content and Media Company Limited (CHS9UCHMZA)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
@@ -3551,7 +3551,7 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: snarl man (UBCCCEQ44D)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: True Digital Content and Media Company Limited (CHS9UCHMZA)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -3642,7 +3642,7 @@
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tdcm.signal;
-				PRODUCT_NAME = SignalCrypt;
+				PRODUCT_NAME = Signal;
 				PROVISIONING_PROFILE = "7417f697-003b-4174-9b9e-9a93ecda0a8e";
 				SDKROOT = iphoneos;
 				TEST_AFTER_BUILD = YES;
@@ -3697,7 +3697,7 @@
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tdcm.signal;
-				PRODUCT_NAME = SignalCrypt;
+				PRODUCT_NAME = Signal;
 				PROVISIONING_PROFILE = "7417f697-003b-4174-9b9e-9a93ecda0a8e";
 				SDKROOT = iphoneos;
 				TEST_AFTER_BUILD = YES;
@@ -3712,7 +3712,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Signal.app/Signal";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: snarl man (UBCCCEQ44D)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: True Digital Content and Media Company Limited (CHS9UCHMZA)";
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -3752,7 +3752,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.whispersystems.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = SignalTests;
-				PROVISIONING_PROFILE = "7417f697-003b-4174-9b9e-9a93ecda0a8e";
+				PROVISIONING_PROFILE = "95ffcf03-cd4b-442f-b5f0-4ea2b6b1a4c7";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALID_ARCHS = "arm64 armv7s armv7 i386 x86_64";
 			};
@@ -3764,7 +3764,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Signal.app/Signal";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: snarl man (UBCCCEQ44D)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: True Digital Content and Media Company Limited (CHS9UCHMZA)";
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -3804,7 +3804,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.whispersystems.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = SignalTests;
-				PROVISIONING_PROFILE = "7417f697-003b-4174-9b9e-9a93ecda0a8e";
+				PROVISIONING_PROFILE = "95ffcf03-cd4b-442f-b5f0-4ea2b6b1a4c7";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALID_ARCHS = "arm64 armv7s armv7 i386 x86_64";
 			};
